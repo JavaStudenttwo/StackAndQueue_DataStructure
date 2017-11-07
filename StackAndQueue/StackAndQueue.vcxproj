@@ -110,6 +110,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedQueue.h" />
+    <ClInclude Include="LinkedQueueNode.h" />
+    <ClInclude Include="SequenceQueue.h" />
+    <ClInclude Include="SequenceStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestQueue.cpp" />
+    <ClCompile Include="TestStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
